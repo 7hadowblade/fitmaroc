@@ -1,0 +1,35 @@
+/* Container adjustments for card layout */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Card container styles */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Optional: Adjust as needed */
+}
+
+/* Card styles for smaller cards */
+.card {
+  flex-basis: calc(33.33% - 1rem); /* Adjust as needed */
+  margin-bottom: 1rem; /* Adjust spacing between cards */
+}
+
+/* Header styles */
+.h1 {
+  align-items: center;
+  text-align: center;
+}
+
+/* Image adjustments for card images */
+.card-img-top {
+  width: 260px;
+  height: 200px;
+}
+.row {
+    --bs-gutter-x: 9rem;
+    margin-left: 5%;
+  }

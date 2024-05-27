@@ -1,0 +1,21 @@
+
+
+.video-container {
+      align-items: center;
+    text-align: center;
+    justify-content: center;
+  width: 100%; /* You can adjust this width as needed */
+  height: 600px; /* Adjust the height as needed */
+  overflow: hidden; /* Hide any overflow */
+  margin-bottom: 10%;
+}
+
+.video {
+  width: 50%; /* Maintain full width */
+  height: 100%; /* Take full height of the container */
+}
+.time{
+       align-items: center;
+    text-align: center;
+    justify-content: center;
+}

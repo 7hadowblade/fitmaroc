@@ -1,0 +1,103 @@
+.music-player {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #af5829;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(186, 116, 35, 0.2);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.music-player:hover {
+  box-shadow: 0 8px 16px rgba(159, 60, 18, 0.3);
+}
+
+.rhap_container {
+  background-color: #b75f1f;
+}
+
+.rhap_container:focus {
+  outline: none;
+}
+
+.rhap_main-controls button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.rhap_main-controls button:hover {
+  color: #ff7f50;
+}
+
+.rhap_progress-container {
+  background-color: rgba(198, 112, 41, 0.1);
+}
+
+.rhap_progress-bar {
+  background-color: #ff7f50 !important;
+}
+
+.rhap_volume-bar {
+  background-color: #ff7f50 !important;
+}
+.music-player {
+ 
+    margin: 0 auto;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+   /* Adjust this value as needed */
+}
+
+
+.audio-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.audio-controls button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.audio-controls button:hover {
+  background-color: #45a049;
+}
+
+.playlist {
+  margin-top: 20px;
+}
+
+.playlist h3 {
+  margin-bottom: 10px;
+}
+
+.playlist ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.playlist li {
+  padding: 5px 0;
+}
+
+.playlist li.active {
+  font-weight: bold;
+}
+
+.playlist{
+  align-items: center;
+  text-align: center;
+}
