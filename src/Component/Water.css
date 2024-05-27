@@ -1,0 +1,28 @@
+
+/* WaterIntakeTable.css */
+
+.water-intake-table-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.water-intake-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.water-intake-table th,
+.water-intake-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.water-intake-table th {
+  background-color: #2f2f2f;
+  color: white;
+}
+.h2{
+  text-align: center;
+  
+}

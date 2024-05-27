@@ -1,0 +1,14 @@
+.footer2{
+   
+ 
+    font-family: 'Play', sans-serif;
+    text-align:center;
+     
+    margin: 0 auto;
+
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+ .roww{display: inline;}

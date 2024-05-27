@@ -1,0 +1,106 @@
+.main {  
+   margin-top: 10%;  
+}  
+
+/*-- COMPONENT --*/  
+.product-card {  
+   position: relative;  
+   display: flex;  
+   flex-direction: column;  
+   align-items: center;  
+   padding: 1.3rem 2rem;  
+   border-radius: 1rem;  
+   overflow: hidden;  
+}  
+
+article:nth-child(1) {  
+   background-color: var(--first-color);  
+}  
+
+article:nth-child(2) {  
+   background-color: var(--second-color);  
+}  
+
+article:nth-child(3) {  
+   background-color: var(--third-color);  
+}  
+
+article:nth-child(4) {  
+   background-color: var(--second-color);  
+}  
+
+.product-card__img {  
+   width: 180px;  
+   height: auto;  
+   padding: 3rem 0;  
+   transition: .5s;  
+}  
+
+.product-card__name {  
+   position: absolute;  
+   left: -25%;  
+   top: 0;  
+   width: 3.5rem;  
+   height: 100%;  
+   writing-mode: vertical-rl;  
+   transform: rotate(180deg);  
+   text-align: center;  
+   background-color: var(--dark-color);  
+   color: #fff;  
+   font-weight: bold;  
+   transition: .5s;  
+}  
+
+.product-card__icon {  
+   font-size: 1.5rem;  
+   color: var(--dark-color);  
+}  
+
+.product-card__icon:hover {  
+   color: var(--accent-color);  
+}  
+
+.product-card__precis {  
+   width: 100%;  
+   display: flex;  
+   justify-content: space-between;  
+   align-items: flex-end;  
+   transition: .5s;  
+}  
+
+.product-card__preci {  
+   display: block;  
+   text-align: center;  
+}  
+
+.product-card__preci--before {  
+   font-size: var(--smaller-font-size);  
+   color: var(--accent-color);  
+   margin-bottom: .25rem;  
+}  
+
+.product-card__preci--now {  
+   font-size: var(--h3-font-size);  
+   font-weight: bold;  
+}  
+
+/*Move left*/  
+.product-card:hover {  
+   box-shadow: 0 .5rem 1rem #D1D9E6;  
+}  
+
+.product-card:hover .product-card__name {  
+   left: 0;  
+}  
+
+.product-card:hover .product-card__img {  
+   transform: rotate(30deg);  
+   margin-left: 3.5rem;  
+}  
+
+.product-card:hover .product-card__precis {  
+   margin-left: 3.5rem;  
+   padding: 0 1.5rem;  
+}  
+
+/* Owl Carousel Navigation Buttons */
