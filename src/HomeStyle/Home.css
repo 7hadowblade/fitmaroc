@@ -27,7 +27,7 @@
 /* Image adjustments for card images */
 .card-img-top {
   width: 260px;
-  height: 200px;
+  height: 150px;
 }
 .row {
     --bs-gutter-x: 9rem;

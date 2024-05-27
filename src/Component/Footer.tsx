@@ -10,10 +10,10 @@ const Footer: React.FC = () => {
   <div className={darkMode ? 'dark-mode' : ''}>
     <footer className="footer">
       <div className="roww">
-     <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
-      <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
-      <a href="#"><FontAwesomeIcon icon={faYoutube} /></a>
-      <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
+     <a href="#" className="roww"><FontAwesomeIcon icon={faFacebook} /></a>
+      <a href="#" className="roww"><FontAwesomeIcon icon={faInstagram} /></a>
+      <a href="#" className="roww"><FontAwesomeIcon icon={faYoutube} /></a>
+      <a href="#" className="roww"><FontAwesomeIcon icon={faTwitter} /></a>
       </div>
       <div className="row">
         <strong><p>Copyright © 2024 FitMaroc.ma </p></strong>

@@ -42,7 +42,7 @@ function App() {
               <Route path="/VideoPlayeryoga" element={<VideoPlayeryoga />} />
           <Route path="/VideoPlayerLeg" element={<VideoPlayerleg />} />
            <Route path="/VideoPlayerabs" element={<VideoPlayerabs />} />
-        <Route path="/Entersite" element={<Entersite />} />
+        <Route path="/fitmaroc" element={<Entersite />} />
        
         <Route path="/Store" element={<Store />} />
         <Route path="/About" element={<About />} />

@@ -90,7 +90,7 @@ export const EntryForm = () => {
         <div className={darkMode ? 'dark-mode' : ''}>
             <div>
                 <Navbar />
-                <h1 style={{ alignContent: 'center', textAlign: 'center', color: 'orange' }}>Select unit of measurement:</h1>
+                <h1 style={{ alignContent: 'center', textAlign: 'center', color: 'orange' }} > <div className='heo'> Select unit of measurement:</div></h1>
                 <div className="entry-form">
                     <form>
                         <div className="measurement-choice">

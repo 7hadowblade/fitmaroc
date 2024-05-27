@@ -678,7 +678,7 @@ h2 {
   margin-right: 8px;
 }
   
- 
+ .vid{margin-top: 10%;}
   
   .card h1 {
     margin: 0;
@@ -848,8 +848,15 @@ color: black;}
 .dark-mode i{
   color: #000000;
 }
+
 .dark-mode p{
   color: white;
+}
+.dark-mode .roww{
+  color: white;
+}
+.con{
+  margin-top: 10%;
 }
 p{
   color:#404040
@@ -884,7 +891,9 @@ main {
   height: 100%;
   text-align: center;
 }
-
+.kl{
+color: gray;
+}
 .entry-form {
   color: rgb(9, 9, 9);
   background-color: rgb(255, 255, 255);
@@ -897,11 +906,14 @@ main {
   min-width: 400px;
   max-width: 700px;
   padding-top: 15px;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
   padding-left: 15px;
   margin-bottom: 10px;
+  margin-top: 10%;
 }
-
+.heo{
+  margin-top: 7%;
+}
 .measurement-choice input{
   margin-right: 10px;
 }
@@ -983,4 +995,9 @@ code {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+}
+.carousel-image {
+  width: 300px; /* Set the desired width */
+  height: 300px; /* Set the desired height */
+  object-fit: cover; /* Ensure the image covers the container */
 }

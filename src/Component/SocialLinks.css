@@ -1,6 +1,7 @@
     .social {
     position: fixed;
     top: 30%;
+    left: -14px;
     }
 
 .social ul {

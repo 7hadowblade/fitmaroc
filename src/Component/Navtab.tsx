@@ -2,8 +2,12 @@
 import React from 'react';
 import Logo from '../Assets/1912723.png'
 import { Link } from 'react-router-dom';
+import DarkMode from './DarkMode';
+
 const Navbar: React.FC = () => {
+      const { darkMode } = DarkMode();
 return (
+     <div className={darkMode ? 'dark-mode' : ''}>
   <nav id="navbar" style={{ backgroundColor: 'white' }}>
           <ul className="navbar-items flexbox-col">
          <Link to="/Home">  <a href="file:///C:/Users/DELL/Desktop/projet%20de%20synte/page%20d'acceuil.html">
@@ -70,14 +74,7 @@ return (
         <span className="link-text">My Agenda</span>
     </Link>
 </li>
-    <li className="navbar-item flexbox-left">
-    <Link to="/Settings" className="navbar-item-inner flexbox-left">
-        <div className="navbar-item-inner-icon-wrapper flexbox">
-        
-        </div>
-        <span className="link-text">Settings</span>
-    </Link>
-</li>
+ 
  <li className="navbar-item flexbox-left">
     <Link to="/Login" className="navbar-item-inner flexbox-left">
         <div className="navbar-item-inner-icon-wrapper flexbox">
@@ -88,11 +85,19 @@ return (
 </li>
  
        <li className="navbar-item flexbox-left">
-    <Link to="/Entersite" className="navbar-item-inner flexbox-left">
+    <Link to="/fitmaroc" className="navbar-item-inner flexbox-left">
         <div className="navbar-item-inner-icon-wrapper flexbox">
         
         </div>
         <span className="link-text">Logout</span>
+    </Link>
+</li>
+   <li className="navbar-item flexbox-left">
+    <Link to="/Settings" className="navbar-item-inner flexbox-left">
+        <div className="navbar-item-inner-icon-wrapper flexbox">
+        
+        </div>
+        <span className="link-text">Settings</span>
     </Link>
 </li>
      <li className="navbar-item flexbox-left">
@@ -106,6 +111,7 @@ return (
     </ul>
        
         </nav>
+        </div>
   );
 };
 

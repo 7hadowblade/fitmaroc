@@ -2,6 +2,9 @@ import React, { SetStateAction, useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import ExampleCarouselImage from '../Assets/41Leu3gBUFL-removebg-preview.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import sbat from '../Assets/sbat1.png';
+import sbat2 from '../Assets/sbat2.png';
+
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -12,35 +15,24 @@ function ControlledCarousel() {
 
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
+      
       <Carousel.Item>
-        <div className="d-flex justify-content-center"> {/* Centering container */}
+        <div className="d-flex justify-content-center">
           <img
-            className="d-block w-20" // Adjusted width to 50%
-            src={ExampleCarouselImage}
+            className="carousel-image"
+            src={sbat2}
             alt="First slide"
           />
         </div>
-       
       </Carousel.Item>
       <Carousel.Item>
-        <div className="d-flex justify-content-center"> {/* Centering container */}
+        <div className="d-flex justify-content-center">
           <img
-            className="d-block w-20" // Adjusted width to 50%
-            src={ExampleCarouselImage}
+            className="carousel-image"
+            src={sbat}
             alt="Second slide"
           />
         </div>
-    
-      </Carousel.Item>
-      <Carousel.Item>
-        <div className="d-flex justify-content-center"> 
-          <img
-            className="d-block w-20" // Adjusted width to 50%
-            src={ExampleCarouselImage}
-            alt="Third slide"
-          />
-        </div>
-   
       </Carousel.Item>
     </Carousel>
   );

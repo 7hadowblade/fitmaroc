@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
-import Footer2 from './Footer2';
+import Footer from './Footer';
 import Navbar from './Navtab';
 import DarkMode from './DarkMode';
 import profile from '../Assets/istockphoto-1495088043-612x612.jpg';
+import ContactSection from './ContactSection';
 const SettingsContainer = styled.div`
   text-align: center;
 `;
@@ -65,8 +66,9 @@ const Settings: React.FC<SettingsProps> = ({ toggleDarkMode, onDarkModeChange })
   return (<div>
      <SettingsContainer className={darkMode ? 'dark-mode' : ''}>
     <img src={profile} alt='Profile' className='avatar'></img>
-   
+    <h1 className="theme">Welcome to FitMaroc</h1>
       <h1 className="theme">Theme</h1>
+       
       <ToggleContainer>
         <StyledButton>
           <ToggleButton
@@ -77,7 +79,9 @@ const Settings: React.FC<SettingsProps> = ({ toggleDarkMode, onDarkModeChange })
           <ToggleIcon icon={checked ? faMoon : faSun} style={{ color: checked ? 'gray' : 'orange' }} />
         </StyledButton>
       </ToggleContainer>
-      <Footer2 />
+      <ContactSection/>
+
+      <Footer />
       <Navbar />
     </SettingsContainer></div>
   );
